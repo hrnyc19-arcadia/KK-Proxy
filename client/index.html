@@ -1,20 +1,69 @@
 <!DOCTYPE html>
   <head>
-    <!-- <meta charset="utf-8"> -->
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <!-- <link rel=" stylesheet" href="styles.css"> -->
-    <title>FlairBnB</title>
-  </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
-  <body>
-    <h1>Welcome to FlairBnB</h1>
-    <div id="main"></div>
-    <div id="app"></div>
-    <div id="listing"></div>
-    <div id="rootReviews"></div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
+
+    <!-- Slick CSS Files -->
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+      
+      <!-- Font Awesome CSS -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+      
+      <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+      <title>FlairBnB</title>
+    </head>
+    
+    <body>
+      <h1>Welcome to FlairBnB</h1>
+      <div class="container">
+        <div id="main"></div>
+        
+        <div id="app"></div>
+        
+        <div id="rootReviews"></div>
+        
+        <div id="similar-listings">
+          <svg
+          class="slick-prev"
+          viewBox="0 0 18 18"
+          role="img"
+          aria-label="Previous"
+          focusable="false"
+          style="height: 24px; width: 24px; display: block; fill: rgb(118, 118, 118);"
+          >
+          <path
+          d="m13.7 16.29a1 1 0 1 1 -1.42 1.41l-8-8a1 1 0 0 1 0-1.41l8-8a1 1 0 1 1 1.42 1.41l-7.29 7.29z"
+          fill-rule="evenodd"
+          ></path>
+        </svg>
+        
+        <div id="carousel"></div>
+        
+        <svg
+        class="slick-next"
+        viewBox="0 0 18 18"
+        role="img"
+        aria-label="Next"
+        focusable="false"
+        style="height: 24px; width: 24px; display: block; fill: rgb(118, 118, 118);"
+        >
+          <path
+          d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z"
+          fill-rule="evenodd"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <script src="http://ec2-3-17-11-240.us-east-2.compute.amazonaws.com/bundle.js" crossorigin="anonymous"></script>
   </body>
   <!-- <script src="bundle.js"></script> -->
   <!-- <script src="https://nc-service.herokuapp.com/"></script> -->
-</html>
+  </html>
